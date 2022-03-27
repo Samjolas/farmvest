@@ -1,0 +1,283 @@
+/* BIG TABLET TO 1200px (width smaller than the 1140px row)  */
+@media only screen and (max-width:1200px) {
+  .work:nth-of-type(2),
+  .work:nth-of-type(4) { 
+    flex-direction: column-reverse;  
+  }
+
+  .work:nth-of-type(3){
+    flex-direction: column;
+  }
+
+  .img_box {
+    width: 50%;
+    margin: auto;
+    padding: 0 0 20px 0;
+  }
+
+  .text_box {
+    width: 100%;
+    padding-left: 120px;
+  }
+
+  .text_box h2 {
+    text-align: center;
+  }
+
+  .text_box > p {
+    text-align: center;
+  }
+
+  .next {
+    padding-left: -100px;
+    padding-right: 100px;
+  }
+
+  .icon_box,
+  .icon_box2 {
+    background-color: #f2f9f2;
+    padding: 10px 0;
+  }
+
+  .img_box {
+    background: none;
+  }
+  
+  .two {
+    padding: 0;
+  }
+  .person {
+    margin: auto;
+    width: 304px;
+  }
+
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+  } 
+
+  .green {
+    margin: 20px auto;
+  }
+
+  .person img {
+    margin-bottom: 20px;
+  }
+
+  .details {
+    width: 300px;
+  }
+
+  .details p:last-of-type {
+    margin-top: 0;
+  }
+
+  .download h2 {
+    width: auto;
+    font-size: 30px;
+  }
+
+  .footer_begin > div:nth-of-type(2) {
+    padding-right: 20px;
+  }
+
+  .footer_begin > div:nth-of-type(2) > p {
+    font-size: 0.9em;
+  }
+
+  .footer_begin > div:nth-of-type(2) > .search {
+    width: 333px;
+    font-size: 14px;
+  }
+
+  .footer_begin > div:nth-of-type(2) > .search span:last-of-type {
+    font-size: 14px;
+  }
+
+  .footer_begin > div:last-of-type {
+    margin-left: -40px;
+  }
+
+  .footer_begin > div:nth-of-type(4) > p {
+    font-size: 75%;
+  }
+
+  .footer_end > ul > li {
+    margin: 0 20px;
+  }
+
+  footer {
+    padding: 30px;
+  }
+
+  .download {
+    margin: 0 25px;
+  }
+
+}
+
+
+/* SMALL TABLET TO BIG TABLET: FROM 767px TO 1023px  */
+
+@media only screen and (max-width: 1023px) {
+  li {
+    margin: 0 24px;
+  }
+
+  .footer_end > p {
+    width: 150px;
+  }
+
+  .footer_end > ul > li {
+    margin: 0 10px;
+  }
+
+  .footer_begin img {
+    width: 20px;
+  }
+}
+
+/* SMALL PHONES TO SMALL TABLET : FROM 480px TO 767px  */
+
+@media only screen and (max-width: 767px) {
+  nav {
+    padding: 35px 25px;
+  }
+
+  nav > ul {
+    flex-direction: column;
+    width: 2  00px;
+  }
+
+  nav > ul > li {
+    padding: 10px 0;
+  }
+
+  nav .button {
+    display: none;
+  }
+
+  .search {
+    background: none;
+    height: auto;
+  }
+
+  .search span:first-of-type {
+    display: block;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 0;
+    padding: 17.5px 25px;
+    border: 1px solid #000000;
+    line-height: 48px;
+    margin-bottom: 16px;
+    float: none;
+  }
+
+  .search span:last-of-type {
+    display: block;
+    width: 533px;
+    line-height: 48px;
+    padding: 17.5px 25px;
+    margin: 0;
+    text-align: center;
+  }
+
+  section {
+    padding: 50px 25px;
+  }
+
+  .client > img {
+    width: 120px;
+    height: auto;
+    margin: auto 52px;
+  }
+
+  
+  .content {
+    width: 400px;
+    height: 90px;
+    background-color:#0080000D;
+    padding: 40px 10px;
+    margin-bottom: 24px;
+    
+  }
+
+  .content >span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+  .footer_begin > div:nth-of-type(2) {
+    display: none;
+  }
+}
+
+/* SMALL PHONES : FROM 0 TO 480px  */
+@media only screen and (max-width: 480px) {
+  header > p {
+    width: 425px;
+  }
+
+  .search span:first-of-type {
+    width: 440px;
+  }
+
+  .search span:last-of-type {
+    width: 440px;
+    line-height: 48px;
+    text-align: center;
+    float: left;
+  }
+
+  section {
+    padding: 30px 10px;
+  }
+
+  .client > img {
+    width: 100px;
+    height: auto;
+    margin: auto 20px;
+  } 
+
+  .testimonials {
+    flex-direction: column;
+  }
+
+  .person {
+    margin-top: 10px;
+  }
+
+  .text_box {
+    padding: 0;
+  }
+
+  .icon_box,
+  .icon_box2 {
+    width: 440px;
+  }
+
+  .icon_box i {
+    margin-right: 0;
+  }
+  
+
+
+}
+
+
+
+
+
+/*****
+
+.store > img:first-child {
+  width: 99px;
+  height: 28.5px;
+}
+
+.store > img:last-child {
+  width: 84px;
+  height: 28.5px;
+}
